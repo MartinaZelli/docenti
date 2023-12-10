@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Universista {
 
-    private List<Docente> listaDocenti = new ArrayList<>();
+    private final List<Docente> listaDocenti;
 
     public Universista(List<Docente> listaDocenti) {
         this.listaDocenti = listaDocenti;
