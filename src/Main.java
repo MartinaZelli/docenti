@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -10,5 +12,9 @@ età tra i docenti universitari.
 Inserire nella classe Universita il metodo TrovaGiovani che restituisca i cognomi dei docenti che hanno età minima
 
          */
+        Universista uni = new Universista(Arrays.asList(new Docente("Pippo","Pluto","123",5)));
+
+        MetodiUnivesita.trovaListaGiovani(uni);
+
     }
 }

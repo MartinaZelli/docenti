@@ -1,18 +1,8 @@
 public class Docente {
-      /*9.
-Scrivere poi una classe Universita, che rappresenti un insieme di docenti universitari
-tramite un array di tipo Docente, e che contenga il costruttore parametrizzato ed
-un metodo etaMinima che restituisce la minima
-età tra i docenti universitari.
-
-Inserire nella classe Universita il metodo TrovaGiovani
-che restituisca i cognomi dei docenti che hanno età minima
-
-         */
-private String name;
-private String surname;
-private String code;
-private int age;
+private final String name;
+private final String surname;
+private final String code;
+private final int age;
 
     public Docente(String name, String surname, String code, int age) {
         this.name = name;
@@ -31,5 +21,9 @@ private int age;
 
     public int getAge() {
         return age;
+    }
+
+    public String getName() {
+        return name;
     }
 }
